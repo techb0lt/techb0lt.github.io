@@ -104,6 +104,7 @@ markdown_extensions:
       alternate_style: true
   - pymdownx.tasklist:
       custom_checkbox: true
+      clickable_checkbox: true
   - toc:
       permalink: true
   - plantuml_markdown:
@@ -117,6 +118,7 @@ plugins:
   - awesome-pages
   - include-markdown
   #- mermaid2
+  - macros
   - table-reader:
       data_path: "docs/assets/tables"
   - encryptcontent:
@@ -150,7 +152,6 @@ plugins:
   #      - Recipes/Main Meal Options/index.md
   #      - Recipes/Snacks and Sides/index.md
   #      - Musings/
-  - macros
   #- tags:
   #    tags_file: Recipes/tags.md
   #- git-revision-date-localized:
